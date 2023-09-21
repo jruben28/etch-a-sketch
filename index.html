@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Etch-a-Sketch</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="main">
+        <header>
+            <div class="logo">
+                <h1>
+                    DOM Practice
+                </h1>
+            </div>
+            <div class="links-container">
+                <div class="link">
+                    <a href="https://www.theodinproject.com/">Odin Project</a>
+                </div>
+                <div class="link">
+                    <a href="https://github.com/jruben28">Github</a>
+                </div>
+                <div class="link">
+                <a href="https://www.linkedin.com/">C.V.</a>
+                </div>
+            </div>
+        </header>
+        <div id="main-container">
+            <div id="tools-container">
+                <div id="etch-container">
+                    <h3 class="etch">Etch</h3>
+                    <h3 class="etch">-a-</h3>
+                    <h3 class="etch">Sketch</h3>
+                </div>
+                <button onclick="draw()">Draw</button>
+                <button onclick="erase()">Erase</button>
+                <output id="output"></output>
+                <input type="range" min="5" max="16" id="input" value="5">
+            </div>
+            <div id="grid-container">
+                <div id="grid">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Developed by Rubén V. as a HTML, CSS, JS and DOM practice ©
+    </footer>
+
+    
+    
+</body>
+</html>
